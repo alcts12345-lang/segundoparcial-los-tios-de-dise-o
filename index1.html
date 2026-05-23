@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GRUPOS CONTABLES</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <div class="barra-top">GRUPOS CONTABLES</div>
+
+    <div class="header">
+        <span><b>UNIDAD:</b> 0252</span>
+        <span class="derecha">Nivel Central</span>
+    </div>
+
+    <h2>GRUPO CONTABLE</h2>
+
+    <div class="formulario">
+        <label>Grupo:</label>
+        <input type="text" id="campo-grupo">
+
+        <label>Nombre:</label>
+        <select id="campo-nombre">
+            <option value="">-- Seleccione --</option>
+        </select>
+
+        <label>Vida útil:</label>
+        <input type="text" id="campo-vidautil">
+
+        <label>Observaciones:</label>
+        <textarea id="campo-obs"></textarea>
+    </div>
+
+    <div class="tabla-contenedor">
+        <table>
+            <thead>
+                <tr>
+                    <th>CÓDIGO</th>
+                    <th>NOMBRE</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-body">
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+                <tr><td>&nbsp;</td><td></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="botones">
+        <button id="btn-nuevo">Nuevo</button>
+        <button id="btn-modificar">Modificar</button>
+        <button id="btn-guardar" class="btn">Guardar</button>
+        <button id="btn-eliminar">Eliminar</button>
+        <button id="btn-deshacer" class="btn">Deshacer</button>
+        <button id="btn-salir">Salir</button>
+    </div>
+
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>
